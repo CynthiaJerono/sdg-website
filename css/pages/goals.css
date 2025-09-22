@@ -1,0 +1,11 @@
+/* make all goal icons responsive */
+.goal-page {
+    img {
+  max-width: 50%;  /* keeps images within their container */
+  height: auto;     /* keeps aspect ratio */
+  display: block;   /* makes margin auto work */
+  margin: 0 auto;   /* centers the image horizontally */
+}
+    text-align: center; /* centers text within the goal page */
+    padding: var(--spacing-md);
+    }
